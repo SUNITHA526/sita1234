@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+    margin: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    display: inline;
+    padding: 15px;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.headerright > img{
+    display: inline;
+    gap: 10px;
+    width: 40px;
+    height: 50px;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.food-1 > img,.food-2 > img,.food-3 > img{
+     width: 450px;
+     height: 450px;
+     display: flex;
+     margin-top: 70px;
+}
+#fish,#biryani{
+    width: 490px;
+    height: 450px;
+}
+.food-1>p,.food-2>p,.food-3>p{
+   font-size: 18px;
+}
+.category > h1{
+    background-color: bisque;
+    color: solid black;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cat-1 > img, .cat-2> img,.cat-3>img, .cat-4>img, .cat-5> img, .cat-6>img{
+    width: 450px;
+    height: 400px;
+}
+.cat-1 > p, .cat-2 > p, .cat-3 > p, .cat-4 > p,.cat-5 > p,.cat-6 > p{
+    position: relative;
+    bottom: 80%;
+    left: 50px;
+    transform: translate(150px,150px);
+    background-color: lightseagreen;
+    padding: 10px;
+    color: black;
+    width: 82px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.women{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.women>h1{
+    display: flex;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    text-indent: 100px;
+}
+.header-1{
+    position: fixed;
+    text-align: center;
+    background-color: green;
+    color: red;
+    padding: 10px;
+    width: 100%;
+}
+.traditional{
+    display: flex;
+    gap: 10px;
+}
+.traditional>div>img{
+    width: 200px;
+    height: 250px;
+    margin-top: 120px;
+    border-radius: 20px;
+}
+div>p{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.traditional-1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: static;
+}
+.traditional-1>div>img{
+    width: 400px;
+    height: 350px;
+    margin-top: 120px;
+    border-radius: 20px;
+}
